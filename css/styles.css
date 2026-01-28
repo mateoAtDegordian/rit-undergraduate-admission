@@ -711,6 +711,7 @@ iframe {
 .benefits__IconWrapper img {
     height: 28rem;
     width: 28rem;
+    object-fit: contain;
 }
 
 .benefits__Actions {
