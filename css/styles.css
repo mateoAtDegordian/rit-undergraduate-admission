@@ -2184,8 +2184,11 @@ color: #f76902;
 
 .center-bold-headline{
     text-align: center;
-    font-weight: 500;
+    color: #000;;
+    font-weight: 600;
     font-size: 32rem;
+    background-color: #fff;
+    padding: 10px;
 }
 
 @media (max-width: 768px) {
@@ -2421,4 +2424,21 @@ color: #f76902;
         font-size: 13rem;
         line-height: 18rem;
     }
+
+    .twoButtons{
+    flex-direction: column;
+}
+
+.twoButtons .button--Main{
+    padding: 20rem 30rem;
+}
+}
+
+.twoButtons{
+    display: flex;
+    gap: 20rem;
+}
+
+.twoButtons .button--Main{
+    padding: 20rem 30rem;
 }
