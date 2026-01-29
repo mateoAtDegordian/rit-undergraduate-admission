@@ -337,7 +337,7 @@ iframe {
 .applications__Wrapper h2 {
     color: #fff;
     font-size: 64rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 64rem;
     margin: 0 auto;
     max-width: 870rem;
@@ -349,7 +349,7 @@ iframe {
 @media (max-width: 768px) {
     .applications__Wrapper h2 {
         font-size: 32rem;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 38rem;
         max-width: 280rem;
         padding-bottom: 40rem;
@@ -360,7 +360,7 @@ iframe {
 .applications__Wrapper h2 span {
     color: #000;
     font-family: "Open Sans";
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .applications__Data {
@@ -517,13 +517,13 @@ iframe {
 }
 
 .benefits {
-    padding: 141rem 0 235rem;
+    padding: 141rem 0 120rem;
     position: relative;
 }
 
 @media (max-width: 768px) {
     .benefits {
-        padding: 116rem 20rem 142rem;
+        padding: 116rem 20rem 120rem;
     }
 }
 
@@ -1120,9 +1120,7 @@ p.workMarket__ListItemNumber span {
     font-family: "Open Sans";
     font-size: 160rem;
     font-weight: 700;
-    line-height: 1;
-    margin-bottom: 8rem;
-    top: -30px;
+    top: 30px;
 }
 
 .degrees__Testimonial:after {
@@ -1131,10 +1129,9 @@ p.workMarket__ListItemNumber span {
     font-family: "Open Sans";
     font-size: 160rem;
     font-weight: 700;
-    line-height: 1;
-    margin-bottom: 8rem;
-    bottom: -80px;
+    bottom: 22px;
     right: 20px;
+    transform: rotate(180deg);
 }
 
 .degrees__Testimonial--dark {
@@ -1182,11 +1179,11 @@ p.workMarket__ListItemNumber span {
     }
 
     .degrees__Testimonial:before {
-        top: -40px;
+        top: 5px;
     }
 
     .degrees__Testimonial:after {
-        bottom: -90px;
+        bottom: 10px;
         right: 16px;
     }
 }
@@ -1800,7 +1797,7 @@ img.degree__ServiceCorner--Mobile {
 
 .applyTitle h1, .applyTitle h1 span {
     font-size: 56rem;
-    line-height: 56rem;
+    line-height: 72rem;
     font-weight: 700;
     margin: 0;
 }
@@ -1815,8 +1812,9 @@ img.degree__ServiceCorner--Mobile {
 .apply__Actions .button--Main {
     display: flex;
     width: fit-content;
-    font-size: 24rem;
-    padding: 12rem;
+    font-size: 18rem;
+    width: 350px;
+    min-height: 40rem;
 }
 .applyTitle p {
     font-size: 24rem;
@@ -1874,7 +1872,7 @@ color: #f76902;
 }
 
 .apply__Actions {
-    margin-top: 40rem;
+    margin-top: 20rem;
 }
 
 .apply__Media {
@@ -2127,9 +2125,13 @@ color: #f76902;
 
 .applications__Wrapper h2{
     padding-bottom: 30px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 80rem;
 }
+.applications__Wrapper h2 span{
+   font-weight: 700;
+}   
+
 .applications__Wrapper .subline{
     padding-bottom: 10rem;
     color: white;
@@ -2187,8 +2189,6 @@ color: #f76902;
     color: #000;;
     font-weight: 600;
     font-size: 32rem;
-    background-color: #fff;
-    padding: 10px;
 }
 
 @media (max-width: 768px) {
@@ -2407,6 +2407,20 @@ color: #f76902;
     }
 }
 
+.twoButtons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20rem;
+    align-items: flex-start;
+}
+
+.twoButtons a {
+    width: 250px;
+    font-size: 18rem;
+    padding: 0;
+}
+
 @media (max-width: 768px) {
     .footer {
         padding: 90rem 0 100rem;
@@ -2429,16 +2443,58 @@ color: #f76902;
     flex-direction: column;
 }
 
-.twoButtons .button--Main{
-    padding: 20rem 30rem;
+.twoButtons a{
+    width: 100%;
 }
 }
 
-.twoButtons{
+
+
+
+.ctaChoice .button--Main{
+        font-size: 24px;
+            width: 300px;
+            min-height: 48rem;
+            
+}
+
+.benefits__Actions a{
+    display:flex;
+    width: 250px;
+    align-self: center;
+    justify-content: center;
+    padding: 5rem 0;
+    color:white;
+    font-size: 18rem;
+min-height: 50px;
+}
+
+.benefits__Actions .benefits__ActionButton--secondary{
+    background-color: #000;
+}
+
+.benefits__Actions{
+    gap: 40rem;
+}
+.workMarket__ListItemNumber span{
+    font-weight: 600;
+}
+
+.list{
     display: flex;
-    gap: 20rem;
+    flex-direction: column;
+    gap: 10rem;
+    align-items: flex-start;
 }
 
-.twoButtons .button--Main{
-    padding: 20rem 30rem;
+.apply__ContactList{
+        justify-content: space-around;
+}
+.apply__ContactList img{
+    width: 45px;
+    margin-bottom: auto;
+}
+
+.apply__ContactItem {
+    align-items: flex-start;
 }
