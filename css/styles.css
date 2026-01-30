@@ -2510,3 +2510,7 @@ min-height: 50px;
 .degrees__Description a:hover{
     opacity: 0.9;
 }
+
+html {
+    font-size: 0.98px;
+}
