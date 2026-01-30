@@ -2606,3 +2606,7 @@ html {
     font-size: 0.98px;
 }
 .degree__ITCorner--Mobile, .degree__BusinessCorner--Mobile, .degree__ServiceCorner--Mobile, .degree__NewMediaCorner--Mobile{z-index: -20;}
+
+.degrees__Description span a{
+    text-decoration: underline;
+}
