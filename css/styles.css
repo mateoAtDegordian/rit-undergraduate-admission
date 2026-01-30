@@ -1846,6 +1846,7 @@ color: #f76902;
 }
 
 .apply__ContactList {
+    font-family: "Open Sans"!important;
     display: flex;
     gap: 60rem;
     margin-top: 20rem;
@@ -1869,6 +1870,13 @@ color: #f76902;
     font-size: 24rem;
     font-weight: 700;
     text-decoration: underline;
+}
+
+.apply__ContactItem span {
+    color: #111;
+    font-size: 24rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .apply__Actions {
@@ -2497,4 +2505,8 @@ min-height: 50px;
 
 .apply__ContactItem {
     align-items: flex-start;
+}
+
+.degrees__Description a:hover{
+    opacity: 0.9;
 }
