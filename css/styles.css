@@ -2455,14 +2455,14 @@ color: #f76902;
 
     .apply__ContactItem {
         gap: 15rem;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .apply__ContactItem img {
         width: 28px;
     }
 
-    .apply__ContactItem a {
+    .apply__ContactItem a, .apply__ContactItem span {
         font-size: 18rem;
     }
 
