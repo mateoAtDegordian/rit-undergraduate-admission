@@ -1386,6 +1386,13 @@ p.workMarket__ListItemNumber span {
 }
 
 @media (max-width: 768px) {
+    .degrees__Item:nth-of-type(1) .degrees__Name {
+        left: 20rem;
+        right: unset;
+        top: -700rem;
+    }
+
+
     .degrees__Item:nth-of-type(2) .degrees__Name {
         top: -800rem;
         right: unset;
